@@ -2,6 +2,62 @@
 
 /*==========  Desktop First  ==========*/
 
-/* Large Devices, Wide Screens */
-@media only screen and (max-width : 1920px)
-  ///
+@media (max-width: 1229px)
+  .news-title
+    font-size: 50px
+  .news-baner
+    height: 370px
+  .news-main-flex-item
+    width: 300px
+    height: 185px
+@media (max-width: 991px)
+  .news-title
+    font-size: 42px
+  .news-baner
+    height: 280px
+  .news-main-flex-item
+    width: 230px
+    height: 140px
+@media (max-width: 767px)
+  .news-title
+    font-size: 34px
+  .news-baner
+    margin-top: 40px
+    height: 50vw
+  .news-main-flex-item
+    width: 100%
+    margin-bottom: 20px
+    max-width: 480px
+    &:last-child
+      margin-bottom: 0
+  .news-main-flex
+    flex-wrap: wrap
+    justify-content: center
+  .form__box_end
+    align-items: flex-start
+    text-align: left
+  .form__row_flex
+    flex-direction: column
+    align-items: center
+  .btn-form_dark
+    width: 100%
+    margin-top: 20px
+@media (max-width: 480px)
+  .news-title
+    font-size: 26px
+  .news-main-title
+    font-size: 24px
+  .news-main-list
+    margin-top: 35px
+  .news-reviews-top
+    flex-direction: column
+    align-items: flex-start
+  .news-reviews-right
+    margin-top: 10px
+  .news-reviews-info-left
+    flex-direction: column-reverse
+    align-items: flex-start
+  .news-reviews-info-user
+    margin: 0
+  .news-reviews-info
+    align-items: flex-start
